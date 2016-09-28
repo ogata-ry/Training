@@ -13,7 +13,7 @@
     /* 
      * データを入力し、返す
      * 
-     * @return inputValue
+     * @return inputValue 入力値
      */
     function inputValue() {
         // 数値を入力する
