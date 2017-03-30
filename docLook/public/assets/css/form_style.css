@@ -1,0 +1,442 @@
+html
+{
+    margin-top: -12px; /* ←すごく嫌 */
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    font-family:'ヒラギノ角ゴ Pro W3';
+    font-weight: 100;
+}
+
+/*html.send
+{
+    min-height: 100%;
+    background: linear-gradient(-45deg, rgba(236, 236, 216, 0.79), rgba(255, 129, 0, 0.87)),
+                url(//10.21.65.8/alpha41/assets/img/kumas.png);
+    background-repeat: no-repeat;
+    background-position: right bottom; 
+    background-attachment: fixed; 
+}*/
+
+.wrap {
+    margin: 50px auto;
+    width: 1000px;
+    background-color: #fff;
+    padding: 10px 0;
+    /*border-radius: 5px;          CSS3草案 */   
+    /*-webkit-border-radius: 5px;      Safari,Google Chrome用 */   
+    /*-moz-border-radius: 5px;    Firefox用 */
+    border: 1px solid #333;
+    font-family: "ＭＳ Ｐゴシック", Arial, Sans-serif, Osaka;
+}
+
+.wrapLog {
+    margin: 50px auto;
+    width: 1000px;
+    background-color: #fff;
+    padding: 10px 0;
+/*    border-radius: 30px;          CSS3草案    
+    -webkit-border-radius: 30px;      Safari,Google Chrome用    
+    -moz-border-radius: 30px;    Firefox用 */
+    border: 1px solid #333;
+}
+
+.wrap h1 {
+    text-align: center;
+    color: white;
+    text-shadow: #000000 5px 3px 5px;
+    /*font-family: メイリオ;*/
+}
+
+.wrap h3 {
+    text-align: center;
+    color: #333;
+    font-family: Quicksand , Meiryo, "ＭＳ Ｐゴシック";
+    font-weight: 100;
+    font-size: 20px;
+    /*font-family: メイリオ;*/
+}
+
+.wrap h1.send {
+    text-align: center;
+    color: white;
+    text-shadow: #000000 5px 3px 5px;
+    /*font-family: HGP教科書体;*/
+}
+
+.wrapLog h3 {
+    text-align: center;
+    color: #333;
+    font-family: Quicksand , Meiryo, "ＭＳ Ｐゴシック";
+    font-weight: 100;
+    font-size: 20px;
+    /*font-family: メイリオ;*/
+}
+
+div.display {
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 950px;
+    text-align: center;
+    padding: 20px;
+    text-height: 20px;
+    word-wrap: break-word;
+}
+
+div.displayLog {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+div.form p{
+    /*font-weight: 700;*/
+    color: red;
+}
+
+.formWindow {
+    border: 1px solid #333;
+    width: 800px;
+}
+
+.titleFormWindow {
+    border: 1px solid #333;
+    width: 797px;
+}
+
+.contentFormWindow {
+    border: 1px solid #333;
+    width: 793px;
+    resize: vertical;
+}
+
+.submit {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.responseSubmit {
+    position: relative;
+    right: 20px;
+    bottom: -95px;
+    float: right;
+}
+
+form {
+    /*font-weight: 700;*/
+    /*font-family: HG丸ｺﾞｼｯｸM-PRO;*/
+}
+
+div.form {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+    padding: 20px;
+}
+
+table {
+    width: 700px;
+    margin: 0 auto;
+}
+
+table thead tr th {
+    background-color: #40a9d7;
+    color: white;
+    font-weight: 100;
+}
+
+#table1 {
+    background-attachment: scroll;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #e2e2e2;
+}
+
+.table2 tr td {
+    background-color: #fff;
+}
+
+/*.id {
+    width: 50px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}
+
+.company {
+    width: 160px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}
+
+.belong {
+    width: 350px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}
+
+.name {
+    width: 350px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}
+
+.email {
+    width: 350px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}
+
+.category {
+    width: 160px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}
+
+.contents {
+    width: 300px;
+    height: 150px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}
+
+.date {
+    width: 80px;
+    word-wrap: break-word;
+    border: 1px solid #827e56;
+    border-radius: 10px;
+}*/
+
+thead {
+    width:1100px;
+}
+
+div.breakWord {
+    word-wrap: break-word;
+    width: 255px;
+    margin: auto;
+}
+
+tr {
+    height: 60px;
+}
+
+.button {
+    width: 140px;
+    height: 45px;
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    background: linear-gradient(#ffffff, #dadada);
+    display: inline-block;
+}
+
+
+.responseButton {
+    width: 90px;
+    height: 30px;
+    -webkit-appearance: none;
+    border: 1px solid gray;
+    background: linear-gradient(#ffffff, #dadada);
+    display: inline-block;
+}
+
+div.display a {
+    padding: 10px;
+}
+
+p.errMsg {
+    color: red;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.hover {
+    background-color: blue;
+}
+
+/*.hover_test {
+    width: 200px;
+    background-color: green;
+    text-align: center;
+}*/
+
+.check_content {
+    background-color: #ffffe2;
+    text-align: left;
+}
+
+.check_content:hover {
+    background-color: #ffecc3;
+}
+
+div.mini_attention {
+    font-size: 12px;
+    color: blue;
+}
+
+div.doclook_content {
+    text-align: left;
+    background-color: #ffffe2;
+}
+
+div.response_wrap {
+    background-color: #f2f2f2;
+    height: 135px;
+    border: 1px solid #aaa;
+}
+
+.responseWindowSelect {
+    border: 1px solid #333;
+    width: 456px;
+}
+
+.responseWindow {
+    border: 1px solid #333;
+    width: 450px;
+}
+
+.form_response {
+    margin: 0 auto;
+    width: 456px;
+    height: 120px;
+    text-align: left;
+    padding: 5px;
+    float: left;
+    position: relative;
+    left: 200px;
+}
+
+.response_line {
+    background-color: #f2f2f2;
+    text-align: left;
+    border: 1px solid #aaa;
+    padding: 15px 10px 5px 35px;
+}
+
+.docArea {
+    background-color: #ffffe2;
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+.responseMenu {
+    text-align: right;
+}
+
+.attention {
+    /*font-weight: 700;*/
+    color: blue;
+}
+
+.titleCol {
+    min-width: 200px;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.dateCol {
+    min-width: 90px;
+    max-width: 90px;
+    word-wrap: break-word;
+}
+
+.docArea {
+    font-family: "メイリオ", sans-serif;
+}
+
+div.headerBody {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #333;
+}
+
+li {
+    color: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    line-height: 3.5em;
+}
+
+div.headerLogo {
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    /*background-repeat: no-repeat;*/
+    /*url(//10.21.65.8/alpha41/assets/img/kumas.png);*/
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a.headerLink {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a.headerLink:hover {
+    color: #f2f2f2;
+    text-decoration: underline;
+}
+
+a.headerLink:visited {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* float調整用 */
+
+.clear { 
+    clear: both;
+}
+
+.clear hr { 
+    display: none;
+}
